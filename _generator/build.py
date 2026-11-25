@@ -130,8 +130,8 @@ home=f'''<div class="arc" aria-hidden="true"><canvas></canvas><span class="pt"><
 <div class="trust fade d2"><a class="chip" href="{GLIST}" target="_blank" rel="noopener"><span class="st">★★★★★</span> 5.0 from 74 Google reviews</a>{STATUS}</div></div>
 <div class="hero-media"><div class="ph">{pic("g11",sizes="(max-width:980px) 92vw, 520px",eager=True)}</div><canvas class="sparks" aria-hidden="true" data-x="0.536" data-y="0.449"></canvas>
 <div class="tag" aria-hidden="true">{I["van"]}<div><b>Onsite service</b><span>We come to the job</span></div></div>
-<div class="hs" style="left:72%;top:30%"><a href="services.html#trailer-repair"><span class="dot"></span><span class="hl">Trailer repair</span></a></div>
-<div class="hs rev" style="left:18%;top:62%"><a href="services.html#mobile-welding"><span class="dot"></span><span class="hl">Mobile welding</span></a></div></div></section>
+<div class="hs rev" style="left:72%;top:30%"><a href="services.html#trailer-repair"><span class="dot"></span><span class="hl">Trailer repair</span></a></div>
+<div class="hs" style="left:18%;top:62%"><a href="services.html#mobile-welding"><span class="dot"></span><span class="hl">Mobile welding</span></a></div></div></section>
 <div class="ticker" aria-hidden="true"><ul>{tick}{tick}</ul></div>
 <section class="sec plate"><div class="wrap"><div class="head"><div><p class="kicker">What gets welded</p><h2 class="split-h">Fixed, built, <span class="hot">welded.</span></h2>{BEAD}</div><p>Every service here comes from the shop’s Google listing, its photos and what customers say in their reviews.</p></div>
 <div class="tags stagger">{tags}</div></div></section>

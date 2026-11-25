@@ -112,6 +112,7 @@ p{margin:0 0 1em}
 .hs .hl{font:600 .72rem/1 var(--lab);letter-spacing:.1em;text-transform:uppercase;background:rgba(9,9,10,.82);border:1px solid var(--line);padding:8px 10px;border-radius:8px;white-space:nowrap;opacity:0;transform:translateX(-6px);transition:.3s}
 .hs:hover .hl,.hs a:focus-visible .hl{opacity:1;transform:none}
 .hs.rev a{flex-direction:row-reverse}
+.hs a{transform:translateX(-8px)}.hs.rev a{transform:translateX(calc(-100% + 8px))}
 @media (hover:none){.hs .hl{opacity:1;transform:none}}
 /* ticker */
 .ticker{background:var(--or);color:#160800;overflow:hidden;padding:14px 0;transform:skewY(-1.2deg);margin:-10px 0 0;position:relative;z-index:3;box-shadow:0 0 50px rgba(255,107,26,.35)}
