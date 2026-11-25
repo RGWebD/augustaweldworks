@@ -143,10 +143,9 @@ home=f'''<div class="arc" aria-hidden="true"><canvas></canvas><span class="pt"><
 <div class="pt"><span class="n">02</span><div><h3>Same day when possible</h3><p>Customers describe same-day frame welds and gate repairs finished “within only a few hours.”</p></div></div>
 <div class="pt"><span class="n">03</span><div><h3>Fair prices</h3><p>“Reasonably priced,” “a great price,” “fair in his pricing”: it comes up in review after review.</p></div></div>
 <div class="pt"><span class="n">04</span><div><h3>Built to last</h3><p>One customer says his landing gear welds were “better than factory OEM.” Another says earlier frame welds “have held up nicely.”</p></div></div></div></div></div></section>
-<section class="sec tight g2"><div class="wrap"><div class="gauges stagger">{gauge(5.0,1.0,"Google rating · out of 5",1,"★")}{gauge(74,0.74,"Google reviews")}{gauge(7,1.0,"Days a week · 6 AM to 6 PM")}</div></div></section>
-<section class="sec plate"><div class="wrap"><div class="head center" style="justify-content:center;text-align:center"><div><p class="kicker" style="justify-content:center">Straight from Google</p><h2 class="split-h">Five stars. <span class="hot">Every one.</span></h2>{BEAD}</div></div>
+<section class="sec g2"><div class="wrap"><div class="gauges stagger" style="margin-bottom:clamp(44px,5vw,64px)">{gauge(5.0,1.0,"Google rating · out of 5",1,"★")}{gauge(74,0.74,"Google reviews")}{gauge(7,1.0,"Days a week · 6 AM to 6 PM")}</div><div class="head center" style="justify-content:center;text-align:center"><div><p class="kicker" style="justify-content:center">Straight from Google</p><h2 class="split-h">Five stars. <span class="hot">Every one.</span></h2>{BEAD}</div></div>
 {carousel(HR)}<p style="text-align:center;margin-top:40px"><a class="btn ghost mag" href="reviews.html"><span class="lbl">Read the reviews</span>{I["arrow"]}</a></p></div></section>
-<section class="sec g2"><div class="wrap"><div class="head"><div><p class="kicker">Take a look</p><h2 class="split-h">Pick a <span class="hot">page.</span></h2>{BEAD}</div></div>
+<section class="sec plate"><div class="wrap"><div class="head"><div><p class="kicker">Take a look</p><h2 class="split-h">Pick a <span class="hot">page.</span></h2>{BEAD}</div></div>
 <div class="teasers stagger"><a class="pcard" href="services.html">{pic("g26b",sizes="(max-width:980px) 100vw, 33vw")}<span class="tx"><span class="mono">Services</span><h3>Every service</h3><p>Trailers, railings, gates, posts, frames and more</p></span></a>
 <a class="pcard" href="work.html">{pic("g19b",sizes="(max-width:980px) 100vw, 33vw")}<span class="tx"><span class="mono">Our Work</span><h3>Before &amp; after</h3><p>Repairs and builds from the shop’s photos</p></span></a>
 <a class="pcard" href="contact.html">{pic("g18a",sizes="(max-width:980px) 100vw, 33vw")}<span class="tx"><span class="mono">Contact</span><h3>Get an estimate</h3><p>{ADDR}</p></span></a></div></div></section>
@@ -156,7 +155,7 @@ home=f'''<div class="arc" aria-hidden="true"><canvas></canvas><span class="pt"><
 def svc(s,k):
     q=f'<blockquote class="q">“{e(s["q"][0])}”<cite>{e(s["q"][1])}</cite></blockquote>' if s['q'] else ''
     li=''.join(f'<li>{e(x)}</li>' for x in s['li'])
-    return f'''<article class="svc" id="{s["id"]}"><div class="svc-img" data-r="zoom">{pic(s["img"])}<span class="bay">{k+1:02d} / {len(SERV):02d}</span></div>
+    return f'''<article class="svc" id="{s["id"]}"><div class="svc-img" data-r="zoom">{pic(s["img"],attrs=f'style="object-position:{s.get("pos","50% 50%")}"')}<span class="bay">{k+1:02d} / {len(SERV):02d}</span></div>
 <div data-r><p class="kicker">{e(s["s"])}</p><h2 class="split-h">{e(s["t"])}</h2>{BEAD}<p class="lead">{e(s["p"])}</p><ul>{li}</ul>{q}<div class="ctas" style="margin-top:22px">{btn_call("sm")}</div></div></article>'''
 jump=''.join(f'<a href="#{s["id"]}">{s["t"]}</a>' for s in SERV)
 STEPS=[('Step 01','Call and describe it',f'Call {PHONE} and tell the shop what broke, or send the details through the estimate form.'),

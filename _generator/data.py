@@ -71,7 +71,7 @@ REV=[
 ]
 TOPICS=['Mobile welding','Timeliness','Solid weld','Metal repairs','Quick work','Mailbox repair','Attention to detail','Quality of work','Craftsmanship','Ease of use']
 SERV=[
- dict(id='mobile-welding',ic='van',t='Mobile & Onsite Welding',s='The welder comes to you',img='g18b',
+ dict(id='mobile-welding',ic='van',t='Mobile & Onsite Welding',s='The welder comes to you',img='g18b',pos='50% 0%',
   p='Onsite service is listed on the Google profile, and customers back it up. One trailer owner called about damaged ramp rails and the repair happened the next day, right where the trailer sat. Another calls the mobile service “a plus.”',
   li=['Onsite repairs at your home, farm or job site','Trailers and equipment that can’t easily move','Call to set a time that works for you'],
   q=('After speaking with Brock over the phone, he came out the next day and took care of my trailer!','Eric H, Google review')),

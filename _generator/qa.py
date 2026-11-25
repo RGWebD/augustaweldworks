@@ -8,9 +8,9 @@ if not BASEURL:
     class Q(http.server.SimpleHTTPRequestHandler):
         def log_message(self,*a):pass
     socketserver.TCPServer.allow_reuse_address=True
-    srv=socketserver.ThreadingTCPServer(('127.0.0.1',8943),functools.partial(Q,directory='/workspace/site3/site')); threading.Thread(target=srv.serve_forever,daemon=True).start()
-    BASEURL='http://127.0.0.1:8943/'
-PAGES=['index','services','shop','reviews','contact','404']
+    srv=socketserver.ThreadingTCPServer(('127.0.0.1',8962),functools.partial(Q,directory='/workspace/augustaweldworks/site')); threading.Thread(target=srv.serve_forever,daemon=True).start()
+    BASEURL='http://127.0.0.1:8962/'
+PAGES=['index','services','work','reviews','contact','404']
 fails=[]
 def F(m): fails.append(m); print('FAIL',m)
 async def main():
@@ -55,6 +55,14 @@ async def main():
                     for s in res['ld']:
                         try: g=json.loads(s)
                         except Exception as ex: F(f'{tag} bad json-ld {ex}'); continue
+                    from collections import Counter
+                    rep=[k for k,v in Counter(u.split('/')[-1].rsplit('-',1)[0] for u in res['imgs'] if not u.endswith('.svg')).items() if v>1]
+                    if rep: F(f'{tag} repeated photo {rep}')
+                    if w==390 and rm=='no-preference' and n=='index':
+                        await pg.evaluate('scrollTo(0,0)'); await pg.click('.burger'); await pg.wait_for_timeout(700)
+                        ok=await pg.evaluate("(()=>{const m=document.querySelector('.mnav');const r=m.getBoundingClientRect();return m.classList.contains('open')&&r.top>=-1&&getComputedStyle(m).visibility==='visible'})()")
+                        if not ok: F('mobile menu did not open')
+                        await pg.click('.burger'); await pg.wait_for_timeout(500)
                     if w==1440 and rm=='no-preference':
                         # duplicate photo check per page
                         hs=[]
@@ -64,7 +72,7 @@ async def main():
                             hs.append((u.split('/')[-1],imagehash.phash(Image.open(io.BytesIO(data)))))
                         for i in range(len(hs)):
                             for j in range(i+1,len(hs)):
-                                if hs[i][1]-hs[j][1]<12 and hs[i][0].split('-')[0]!=hs[j][0].split('-')[0]: F(f'{n} near-duplicate {hs[i][0]} {hs[j][0]} d={hs[i][1]-hs[j][1]}')
+                                if hs[i][1]-hs[j][1]<12 and hs[i][0][:3]!=hs[j][0][:3]: F(f'{n} near-duplicate {hs[i][0]} {hs[j][0]} d={hs[i][1]-hs[j][1]}')
                         print(n,'ok imgs',len(hs),'|',res['titles'][0][:60],'| desc',len(res['titles'][1] or ''))
                 await ctx.close()
         await b.close()
