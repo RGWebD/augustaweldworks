@@ -1,0 +1,18 @@
+# Augusta Weld Works LLC
+
+> Mobile welding and fabrication business at 204 Plymouth Rd, Augusta, GA 30907. Phone (706) 550-5298. Open every day, 6 AM–6 PM Eastern Time (holiday hours may vary; Thanksgiving and the day after are flagged "hours might differ" on Google). Rated 5.0 stars from 74 Google reviews. Onsite services and online estimates are listed on its Google profile.
+
+## Key facts
+- Category: Welder (mobile welding & fabrication)
+- Services: Mobile & Onsite Welding; Trailer Repair; Gates, Hinges & Tailgates; Spring Hangers & Undercarriage; Ramps & Ladder Racks; Ornamental Railings & Gates; Mailbox Posts; Mower, Bike & Go-Kart Frames; Custom Fabrication & Repairs
+- Typical jobs from reviews: trailer landing gear, gooseneck ramp side rails, enclosed trailer repairs, utility trailer tailgates and gate hinges, ladder racks, mower deck cracks, motorcycle frame welds, a cast iron bench support bar
+- Service options: onsite services; online estimates; no online booking (call (706) 550-5298)
+- Website, social links and prices: none listed on the Google profile
+- Google Maps: https://www.google.com/maps/place/Augusta+Weld+Works/@33.5141428,-82.0999013,17z/data=!3m1!4b1!4m6!3m5!1s0xe233914c065b21d:0x39006441fa388aa5!8m2!3d33.5141428!4d-82.0999013!16s%2Fg%2F11s_xszqzm
+
+## Pages
+- [Home](https://rgwebd.github.io/augustaweldworks/): overview, services, a before-and-after repair, why customers call, reviews
+- [Services](https://rgwebd.github.io/augustaweldworks/services.html): each service in detail and how a job works
+- [Our Work](https://rgwebd.github.io/augustaweldworks/work.html): before-and-after repairs and a photo gallery
+- [Reviews](https://rgwebd.github.io/augustaweldworks/reviews.html): 5.0★ from 74 Google reviews, ten quoted verbatim
+- [Contact](https://rgwebd.github.io/augustaweldworks/contact.html): map, hours, phone, estimate form and FAQ

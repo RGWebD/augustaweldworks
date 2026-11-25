@@ -1,0 +1,117 @@
+# All facts from /workspace/augustaweldworks/notes.md (Google Maps listing, viewed 2026-11-25)
+NAME='Augusta Weld Works LLC'; SHORT='Augusta Weld Works'
+BASE='https://rgwebd.github.io/augustaweldworks/'; REPO='augustaweldworks'
+PHONE='(706) 550-5298'; TEL='tel:+17065505298'; SMS='sms:+17065505298'
+STREET='204 Plymouth Rd'; CITY='Augusta'; REGION='GA'; ZIP='30907'
+ADDR=f'{STREET}, {CITY}, {REGION} {ZIP}'
+LAT,LNG=33.5141428,-82.0999013
+GLIST='https://maps.app.goo.gl/Xyrw4oJSKnTqRYQf8'
+GPLACE='https://www.google.com/maps/place/Augusta+Weld+Works/@33.5141428,-82.0999013,17z/data=!3m1!4b1!4m6!3m5!1s0xe233914c065b21d:0x39006441fa388aa5!8m2!3d33.5141428!4d-82.0999013!16s%2Fg%2F11s_xszqzm'
+DIR='https://www.google.com/maps/dir/?api=1&destination=Augusta+Weld+Works%2C+204+Plymouth+Rd%2C+Augusta%2C+GA+30907'
+EMBED='https://www.google.com/maps?q=Augusta+Weld+Works,+204+Plymouth+Rd,+Augusta,+GA+30907&z=15&output=embed'
+RATING=5.0; COUNT=74
+PH={
+'g11':'Welder kneeling with torch lit, repairing the rear of a ramp trailer',
+'g18b':'Augusta Weld Works LLC enclosed trailer lettered Mobile Welding & Fabrication, 706-550-5298',
+'g18a':'Augusta Weld Works trailer behind a hand truck brought in for repair',
+'g01a':'Trailer tongue jack and coupler after a landing-gear repair',
+'g01b':'Trailer landing gear welded back onto the tongue',
+'g02a':'Utility trailer with a mesh ramp gate',
+'g02b':'Utility trailer with fold-up ramp gate, side view',
+'g03a':'Dump trailer with a broken rear gate strapped shut',
+'g03b':'Same dump trailer with its rear gates repaired and latched',
+'g04':'Black ornamental scrollwork iron panels against a brick wall',
+'g05':'Welding inside a steel dump body in a shop bay',
+'g06':'Metal balcony railing on a raised wood deck',
+'g07':'Wood-deck utility trailer during a repair',
+'g08':'Black ornamental iron railing on a brick porch',
+'g09':'Close-up of ornamental scrollwork iron panels',
+'g10':'Frame bracket welded under a vehicle',
+'g12':'Heavy hinge welded onto a trailer gate',
+'g13':'Go-kart frame with roll bars, painted black',
+'g14':'Trailer leaf spring and axle area during repair',
+'g15':'Expanded metal panel welded into a steel frame',
+'g17a':'Scroll brackets and parts ready for a mailbox post',
+'g17b':'Black mailbox post with ornamental scroll bracket',
+'g19a':'Pair of steel mesh loading ramps',
+'g19b':'Steel mesh loading ramps laid out on a driveway',
+'g20a':'Mailbox post with a broken bracket before repair',
+'g20b':'Same mailbox post with a new scroll bracket welded on',
+'g21a':'Broken spring hanger torn off under a trailer frame',
+'g21b':'New boxed spring hanger welded onto the trailer frame',
+'g23a':'Rotted ramp door frame removed from an enclosed trailer',
+'g23b':'New steel ramp door frame built for an enclosed trailer',
+'g24a':'Cracked steel mounting boss before repair',
+'g24b':'Mounting boss rebuilt with fresh welds',
+'g25a':'Bare steel post frame for a mailbox',
+'g25b':'Finished black mailbox post with mailbox installed',
+'g26a':'Black ornamental iron gate beside a brick column',
+'g26b':'Pair of black iron driveway gates between brick columns',
+'g27a':'Enclosed trailer floor frame opened up for repair',
+'g27b':'Enclosed trailer floor with new steel cross members',
+'g28a':'Damaged iron stair railing before repair',
+'g28b':'Iron stair railing straightened and rewelded',
+'g29a':'Rusted, rotted trailer floor edge before repair',
+'g29b':'New steel side rail and cross members on the trailer floor',
+'g30a':'Broken bracket pieces from a vintage camper',
+'g30b':'Vintage aluminum camper trailer',
+}
+# Reviews, verbatim from Google Maps (all 5 stars)
+REV=[
+ ('Jennifer Casella','4 weeks ago',"Just picked up my Honda 70 there for some frame welds that were completed same day. Have previously taken the bike for other frame welds that have held up nicely. He does excellent work, is very responsive in communication, and will always attempt to offer same-day service. Brock is personable, offers great customer service, and stands behind any of his work."),
+ ('Jacob Smith','a week ago',"Brock did a wonderful repair on my trailer landing gear. He was fast same day and reasonably priced. The welds were better than factory OEM."),
+ ('D Giled','2 months ago',"Brock welded back together a support bar on my cast iron bench. He did a great job for a great price. My wife could not be any more pleased. Brick was very personable and easy to adjust scheduling with. Great for any type of welding work would recommend"),
+ ('Eric H','3 years ago',"I had some physical damage occur on the side rail of my mega ramps on my gooseneck trailer that needed to be repaired and came across this local business in the process.  After speaking with Brock over the phone, he came out the next day and took care of my trailer!  He did a fantastic job, price was very reasonable and he was very professional!  Highly recommend this company!"),
+ ('Jordan Mackiewicz','5 months ago',"My mower deck started to get some stress cracks as well as an idler puller mount broke off. I called Brock at Augusta Weld Works and he took care of it timely and professionally.\nHe worked me into his schedule while also accommodating mine.\nAugusta Weld Works will be my first call next time I need anything welded.  Also worth noting he does do mobile service which is a plus."),
+ ('Michael Williams','6 months ago',"Came to Brock to get a ladder rack built onto my trailer, he not only took my vision of what I want but exceeding my expectations on the overall outcome. I will definitely be working with him again and will recommend for anyone looking for wielding."),
+ ('William Nelson','9 months ago',"Brock was timely in getting back to my call. He was innovative on how to go about out my repair on my enclosed trailer. He was a pleasure to work with and was fair in his pricing. If I have any further needs with my trailer I will reach back out to him and would definitely recommend him to others as well. Thank you Brock"),
+ ('Matthew Braxton','a year ago',"I broke tailgate on my utility trailer and took it to Brock. He repaired my trailer in very timely manner and educated me how it should have welded I initially. This young man was extremely professional and very good at his craft. He will definitely get my business in the future."),
+ ('Jim P','a year ago',"I needed new hinges on the gate of my utility trailer. I took the trailer to Brock and he did the job in a timely and professional manner at a fair price. I am very pleased with his work. Brock will be my go to when I need welding services again. Nice guy and great service."),
+ ('Angel Cruz','8 months ago',"I had a trailer gate that needed multiple spots welded back with supports. Within only a few hours it was repaired and looking better than new! Very friendly and would definitely recommend!"),
+]
+TOPICS=['Mobile welding','Timeliness','Solid weld','Metal repairs','Quick work','Mailbox repair','Attention to detail','Quality of work','Craftsmanship','Ease of use']
+SERV=[
+ dict(id='mobile-welding',ic='van',t='Mobile & Onsite Welding',s='The welder comes to you',img='g18b',
+  p='Onsite service is listed on the Google profile, and customers back it up. One trailer owner called about damaged ramp rails and the repair happened the next day, right where the trailer sat. Another calls the mobile service “a plus.”',
+  li=['Onsite repairs at your home, farm or job site','Trailers and equipment that can’t easily move','Call to set a time that works for you'],
+  q=('After speaking with Brock over the phone, he came out the next day and took care of my trailer!','Eric H, Google review')),
+ dict(id='trailer-repair',ic='van',t='Trailer Repair',s='Landing gear, rails, tongues and frames',img='g01b',
+  p='Trailers are the bread and butter here: landing gear, side rails, tongues, floors and frames on utility, dump, enclosed and gooseneck trailers. One customer says the welds on his landing gear came out “better than factory OEM.”',
+  li=['Landing gear and tongue jacks','Side rails, floors and cross members','Utility, dump, enclosed and gooseneck trailers'],
+  q=('He was fast same day and reasonably priced. The welds were better than factory OEM.','Jacob Smith, Google review')),
+ dict(id='gates-hinges',ic='hinge',t='Gates, Hinges & Tailgates',s='Back to swinging and latching right',img='g12',
+  p='Broken tailgates, worn hinges and ramp gates that won’t latch. Customers say these jobs are often turned around in a few hours, with supports added so they hold.',
+  li=['New hinges on utility trailer gates','Tailgate and ramp gate repairs','Added supports and gussets'],
+  q=('Within only a few hours it was repaired and looking better than new!','Angel Cruz, Google review')),
+ dict(id='undercarriage',ic='spring',t='Spring Hangers & Undercarriage',s='Hangers, brackets and axle mounts',img='g14',
+  p='The shop’s photos show torn-off spring hangers replaced with new boxed hangers, plus bracket and axle-area repairs under trailers and vehicles.',
+  li=['Spring hanger replacement','Frame brackets and mounts','Axle-area repairs'],q=None),
+ dict(id='ramps-racks',ic='ramp',t='Ramps & Ladder Racks',s='Built to your idea',img='g19a',
+  p='Steel loading ramps, ramp doors for enclosed trailers and ladder racks built onto trailers. One customer brought his idea for a ladder rack and says the result beat his expectations.',
+  li=['Steel mesh loading ramps','Ramp door frames for enclosed trailers','Ladder racks built onto trailers'],
+  q=('He not only took my vision of what I want but exceeding my expectations on the overall outcome.','Michael Williams, Google review')),
+ dict(id='railings-gates',ic='rail',t='Ornamental Railings & Gates',s='Iron railings, gates and scrollwork',img='g08',
+  p='Porch and stair railings, deck railings, driveway gates and scrollwork panels show up all through the shop’s Google photos, both repairs and new pieces.',
+  li=['Porch, stair and deck railings','Iron driveway and walk gates','Scrollwork panel repairs'],
+  q=('I highly recommend AWW services to anyone in need of quality metalwork.','Google review highlight')),
+ dict(id='mailbox-posts',ic='mailbox',t='Mailbox Posts',s='Repairs and custom posts',img='g17b',
+  p='“Mailbox repair” is one of the topics customers mention most. The shop builds steel mailbox posts with scroll brackets and welds broken brackets back onto existing posts.',
+  li=['Custom steel mailbox posts','Scroll brackets and finials','Broken bracket repairs'],q=None),
+ dict(id='frames',ic='mower',t='Mower, Bike & Go-Kart Frames',s='Cracks, mounts and frame welds',img='g13',
+  p='Cracked mower decks, broken idler mounts, dirt bike frames and go-kart frames. One rider has brought the same Honda 70 back for frame welds and says the earlier ones have held up nicely.',
+  li=['Mower deck cracks and broken mounts','Motorcycle and dirt bike frame welds','Go-kart frames'],
+  q=('Have previously taken the bike for other frame welds that have held up nicely.','Jennifer Casella, Google review')),
+ dict(id='custom-fabrication',ic='torch',t='Custom Fabrication & Repairs',s='If it’s metal, ask',img='g15',
+  p='Custom frames and panels, a rebuilt hand truck, even the support bar on a cast iron bench. Customers call it “great for any type of welding work.”',
+  li=['Custom steel frames and panels','Equipment and tool repairs','Household and outdoor metal repairs'],
+  q=('Great for any type of welding work would recommend','D Giled, Google review')),
+]
+FAQ=[
+ ('Do you offer mobile welding?','Yes. Onsite services are listed on the Augusta Weld Works Google profile, and customers mention mobile service in their reviews, including a next-day trailer repair done on site.'),
+ ('Where is Augusta Weld Works?',f'The listed address is {ADDR}. Call {PHONE} to set up onsite service or to bring a trailer or piece of equipment by.'),
+ ('What are your hours?','Open every day, 6 AM to 6 PM Eastern. Holiday hours may vary: Thanksgiving and the day after are flagged on Google as “hours might differ,” so call ahead around holidays.'),
+ ('Can I get an estimate?',f'Online estimates are listed on the Google profile. Call {PHONE} and describe the job, or use the estimate form on the contact page to send the details.'),
+ ('What kind of welding do you do?','Trailer repair (landing gear, gates, hinges, tailgates, rails, floors and spring hangers), ramps and ladder racks, ornamental railings and gates, mailbox posts, mower, bike and go-kart frames, and custom fabrication.'),
+ ('How fast can you get to my job?','It depends on the schedule. Customers describe same-day repairs and a next-day onsite visit, and one says the shop “will always attempt to offer same-day service.” Call to check today’s availability.'),
+ ('How much does a weld repair cost?',f'Prices aren’t listed online. Customers describe the pricing as fair and reasonable. Call {PHONE} with the details for a quote.'),
+]
